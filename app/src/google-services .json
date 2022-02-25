@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "727284345830",
+    "project_id": "hindicartoontv-a45a5",
+    "storage_bucket": "hindicartoontv-a45a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727284345830:android:0080e7d434ed34695bc427",
+        "android_client_info": {
+          "package_name": "com.rakibstudiohindicartoontv.hindicartoontv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727284345830-1u4u5numn02n1ugieeht7ilkn0s3psfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6G8iVc0aNz7JeFwEUaDZ5fa452cbw5_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727284345830-1u4u5numn02n1ugieeht7ilkn0s3psfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

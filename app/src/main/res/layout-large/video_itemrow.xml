@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="160dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="3dp"
+    android:layout_gravity="center_horizontal">
+    <androidx.cardview.widget.CardView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:background="@android:color/white"
+        app:cardCornerRadius="5dp">
+
+
+        <RelativeLayout
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="135dp">
+
+
+            <ImageView
+
+
+                android:id="@+id/imagevideo"
+                android:src="@drawable/ic_menu_gallery"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="0dp"
+                android:scaleType="fitXY"
+                android:contentDescription="TODO" />
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:background="#2512EFEF"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+            <TextView
+                android:gravity="center"
+                android:background="@android:color/white"
+
+                android:id="@+id/titlefirebase"
+                android:layout_gravity="fill_vertical"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:paddingStart="1dp"
+
+                android:textColor="#111"
+                android:text=" dddd dddd dd dd  dddd dddd ddd dd ddd dddd dd d ddddd dd  "
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+

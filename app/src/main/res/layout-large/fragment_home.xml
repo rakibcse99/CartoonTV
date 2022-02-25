@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/werwer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    tools:context=".ui.home.HomeFragment">
+    <androidx.core.widget.NestedScrollView
+        android:background="@android:color/white"
+        android:id="@+id/scroll"
+           android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_slider_mainActivity"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:background="#0B0B0B"
+        app:cardCornerRadius="18dp">
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sliderAnimationDuration="900"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderIndicatorAnimationDuration="600"
+            app:sliderIndicatorEnabled="true"
+
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#5A5A5A"
+            app:sliderIndicatorUnselectedColor="#FFF"
+            app:sliderScrollTimeInSec="1" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Little Bheem"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/Littlebheem"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/LittlebheemRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="120dp">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_height="30dp">-->
+<!--            <TextView-->
+<!--                android:text="All cetagory"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#171717"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="start"-->
+<!--                android:fontFamily="@font/aladin"-->
+
+<!--                android:textSize="20sp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/AllTv"-->
+<!--                android:text="See All Show"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#E200FF0D"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="end"-->
+<!--                android:textSize="18sp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="90dp">-->
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/ShowRecycler"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Bangla Cartoon Rupkotha"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/BanglacartoonTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/BanglacartoonRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Shiva"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/shivaTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/shivaRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Hindi Moral Stories"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/hindiStoryTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/HindistoryRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Rodra "
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/rodraTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rodraRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Pokemon Video"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/PokemonTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PokemonRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<!--    <com.startapp.sdk.ads.banner.Mrec-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/startAppMrecfsg"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Ben 10"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/benTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/BenRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_height="30dp">
+            <TextView
+                android:fontFamily="@font/aladin"
+                android:text="Vir The Robot Boy"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+
+                android:id="@+id/virTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/VirRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<!--<View-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:background="@android:color/white"-->
+<!--    android:layout_height="5dp"/>-->
+
+
+
+
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="190dp">-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_height="30dp">-->
+<!--            <TextView-->
+<!--                android:text="Motu Patlu"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#171717"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="start"-->
+<!--                android:fontFamily="@font/aladin"-->
+
+<!--                android:textSize="20sp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"/>-->
+<!--            <TextView-->
+<!--                android:id="@+id/MotuPatluTv"-->
+<!--                android:text="See All"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#E200FFFF"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="end"-->
+<!--                android:textSize="18sp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"/>-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="160dp">-->
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/MotuPatluRecycler"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--    <com.startapp.sdk.ads.banner.Mrec-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/startAppMrecfsgrf"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Chotha bheem"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/ChothabheemTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/ChothabheemRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Jungle Book"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/jungleTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/jungleRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Masha And Beer"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/MashaTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/MashaRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Mickey Mouse"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/MickeyTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/MickeyRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Bablu Dablu"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/BabluDabluTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/BabluDabluRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<!--    <com.startapp.sdk.ads.banner.Mrec-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/startAppMrecyut"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Looney Touns"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/LooneyTounsTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/LooneyTounsRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Larva Funny Video"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/LarvaTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/LarvaRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Tom And jerry"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/Tomtv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/TomRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Pink Panther"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/pinkTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/PinkRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="190dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="30dp">
+        <TextView
+            android:text="Oscar funny Video"
+            android:textStyle="bold"
+            android:textColor="#171717"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:fontFamily="@font/aladin"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/OscarTv"
+            android:text="See All"
+            android:textStyle="bold"
+            android:textColor="#E200FFFF"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/OscarRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+<!--        <com.startapp.sdk.ads.banner.Mrec-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:id="@+id/startAppMrechjgf"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content" />-->
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="190dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="30dp">
+        <TextView
+            android:text="Doreamon Video"
+            android:textStyle="bold"
+            android:textColor="#171717"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:fontFamily="@font/aladin"
+
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/DoreamonTv"
+            android:text="See All"
+            android:textStyle="bold"
+            android:textColor="#E200FFFF"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/DoreamonRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="190dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="30dp">
+        <TextView
+            android:text="Jan Cartoon Video"
+            android:textStyle="bold"
+            android:textColor="#171717"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:fontFamily="@font/aladin"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/janCartoonTv"
+            android:text="See All"
+            android:textStyle="bold"
+            android:textColor="#E200FFFF"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/janCartoonRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="190dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="30dp">
+        <TextView
+            android:text="Oggy And Cockroaches"
+            android:textStyle="bold"
+            android:textColor="#171717"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:fontFamily="@font/aladin"
+
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/OggyTv"
+            android:text="See All"
+            android:textStyle="bold"
+            android:textColor="#E200FFFF"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/OggyRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Cracke Clamstrap"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/CrackeTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/CrackeRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+<!--    <com.startapp.sdk.ads.banner.Mrec-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/startAppMrecas"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_margin="2dp"
+        app:cardCornerRadius="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Mr Beam Animatiom"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/MoreoverTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/MoreoverRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Chacha Bhatija"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/batizaTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/batizaRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Motu patlu"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/motupatluTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/motupatluRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Vir The Robot Boy Bangla"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/VirbanglaTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/VirbanglaRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<!--    <com.startapp.sdk.ads.banner.Mrec-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:id="@+id/startAppMrecds"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content" />-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Hindi Stories"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/HindiRupkothaTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/HindiRupkothaRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="190dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_height="30dp">
+            <TextView
+                android:text="Simba The Lion King"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:fontFamily="@font/aladin"
+
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/SimbaTv"
+                android:text="See All"
+                android:textStyle="bold"
+                android:textColor="#E200FFFF"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/SimbaRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</FrameLayout>

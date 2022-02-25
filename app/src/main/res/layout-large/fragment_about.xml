@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".About">
+
+    <androidx.core.widget.NestedScrollView
+
+        android:id="@+id/ssss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FBFBFB"
+                    android:gravity="center"
+                    android:text="Hindi Cartoon Video "
+                    android:fontFamily="@font/aladin"
+
+                    android:textColor="@android:color/black"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2512EFEF"
+                    android:gravity="center"
+                    android:text="Version 1.5"
+                    android:fontFamily="@font/aladin"
+                    android:textColor="#111"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:background="#2512EFEF"
+
+                app:cardCornerRadius="8dp">
+
+
+
+
+                <TextView
+                    android:id="@+id/updtetextview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2512EFEF"
+                    android:gravity="center"
+                    android:text="Update Now "
+                    android:autoLink="web"
+                    android:fontFamily="@font/aladin"
+                    android:textColor="#111"
+                    android:textSize="50dp"
+                    android:textStyle="bold" />
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_alignParentTop="true"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2504F68D"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="3dp"
+                        android:background="#25000000"
+                        android:gravity="start"
+                        android:text="About "
+                        android:fontFamily="@font/aladin"
+
+                        android:textColor="#111"
+                        android:textSize="50sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/aladin"
+                        android:layout_margin="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="This Application is best Hindi cartoon Video Application for Kids .User can play their favorite Kids Videos through Application"
+                        android:textColor="#111"
+
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:text="* Easy To play videos "
+                        android:textColor="#111"
+
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:text="* Great UI  design"
+                        android:textColor="#111"
+
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:text="* Safe Ads for kids"
+                        android:textColor="#111"
+
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:text="* Userfriendly"
+                        android:textColor="#111"
+
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:fontFamily="@font/aladin"
+
+                        android:layout_height="wrap_content"
+                        android:autoLink="email"
+                        android:text="Hindi Cartoon  Application is design and development By Rakib Studio ,for more Application contact cartoondiscover2020@gmail.com"
+                        android:textColor="#111"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</FrameLayout>

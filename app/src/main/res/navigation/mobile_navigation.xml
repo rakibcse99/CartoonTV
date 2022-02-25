@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.ui.slideshow.Catagory"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/about"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.About"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/virHindi"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.VirHindi"
+        android:label="fragment_vir_hindi"
+        tools:layout="@layout/fragment_vir_hindi" />
+    <fragment
+        android:id="@+id/virbangla"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Virbangla"
+        android:label="fragment_virbangla"
+        tools:layout="@layout/fragment_virbangla" />
+    <fragment
+        android:id="@+id/motupatlu"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Motupatlu"
+        android:label="fragment_motupatlu"
+        tools:layout="@layout/fragment_motupatlu" />
+    <fragment
+        android:id="@+id/masha"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Masha"
+        android:label="fragment_masha"
+        tools:layout="@layout/fragment_masha" />
+    <fragment
+        android:id="@+id/littlebheem"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Littlebheem"
+        android:label="fragment_littlebheem"
+        tools:layout="@layout/fragment_littlebheem" />
+    <fragment
+        android:id="@+id/chottabheem"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Chottabheem"
+        android:label="fragment_chottabheem"
+        tools:layout="@layout/fragment_chottabheem" />
+    <fragment
+        android:id="@+id/looney"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Looney"
+        android:label="fragment_looney"
+        tools:layout="@layout/fragment_looney" />
+    <fragment
+        android:id="@+id/hindistoris"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.HindiStory"
+        android:label="hindistoris"
+        tools:layout="@layout/hindistoris" />
+    <fragment
+        android:id="@+id/larva"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Larva"
+        android:label="fragment_larva"
+        tools:layout="@layout/fragment_larva" />
+    <fragment
+        android:id="@+id/tom"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Tom"
+        android:label="fragment_tom"
+        tools:layout="@layout/fragment_tom" />
+    <fragment
+        android:id="@+id/pink"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Pink"
+        android:label="fragment_pink"
+        tools:layout="@layout/fragment_pink" />
+    <fragment
+        android:id="@+id/oscar"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Oscar"
+        android:label="fragment_oscar"
+        tools:layout="@layout/fragment_oscar" />
+    <fragment
+        android:id="@+id/doreamon"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Doreamon"
+        android:label="fragment_doreamon"
+        tools:layout="@layout/fragment_doreamon" />
+
+    <fragment
+        android:id="@+id/oggy"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Oggy"
+        android:label="fragment_oggy"
+        tools:layout="@layout/fragment_oggy" />
+
+    <fragment
+        android:id="@+id/cracke"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Cracke"
+        android:label="fragment_cracke"
+        tools:layout="@layout/fragment_cracke" />
+    <fragment
+        android:id="@+id/moreOver"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Beam"
+        android:label="fragment_more_over"
+        tools:layout="@layout/fragment_more_over" />
+
+    <fragment
+        android:id="@+id/dragonball"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Batiza"
+        android:label="fragment_dragonball"
+        tools:layout="@layout/fragment_batiza" />
+    <fragment
+        android:id="@+id/banglarupkotha"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Banglarupkotha"
+        android:label="fragment_banglarupkotha"
+        tools:layout="@layout/fragment_banglarupkotha" />
+    <fragment
+        android:id="@+id/hindiruplotha"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Hindiruplotha"
+        android:label="fragment_hindiruplotha"
+        tools:layout="@layout/fragment_hindiruplotha" />
+    <fragment
+        android:id="@+id/janCartoon"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.JanCartoon"
+        android:label="fragment_jan_cartoon"
+        tools:layout="@layout/fragment_jan_cartoon" />
+    <fragment
+        android:id="@+id/benteen"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Benteen"
+        android:label="fragment_benteen"
+        tools:layout="@layout/fragment_benteen" />
+    <fragment
+        android:id="@+id/pokemon"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Pokemon"
+        android:label="fragment_pokemon"
+        tools:layout="@layout/fragment_pokemon" />
+    <fragment
+        android:id="@+id/micky"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Micky"
+        android:label="fragment_micky"
+        tools:layout="@layout/fragment_micky" />
+    <fragment
+        android:id="@+id/simba"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Simba"
+        android:label="fragment_simba"
+        tools:layout="@layout/fragment_simba" />
+    <fragment
+        android:id="@+id/babluDablu"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.BabluDablu"
+        android:label="fragment_bablu_dablu"
+        tools:layout="@layout/fragment_bablu_dablu" />
+    <fragment
+        android:id="@+id/joungleBook"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.JoungleBook"
+        android:label="fragment_joungle_book"
+        tools:layout="@layout/fragment_joungle_book" />
+    <fragment
+        android:id="@+id/kisena"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Kisena"
+        android:label="fragment_kisena"
+        tools:layout="@layout/fragment_kisena" />
+
+    <fragment
+        android:id="@+id/rudra"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Rudra"
+        android:label="fragment_rudra"
+        tools:layout="@layout/fragment_rudra" />
+    <fragment
+        android:id="@+id/shiva"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.Shiva"
+        android:label="fragment_shiva"
+        tools:layout="@layout/fragment_shiva" />
+    <fragment
+        android:id="@+id/motupatluNew"
+        android:name="com.rakibstudiohindicartoontv.hindicartoontv.MotupatluNew"
+        android:label="fragment_motupatlu_new"
+        tools:layout="@layout/fragment_motupatlu_new" />
+</navigation>

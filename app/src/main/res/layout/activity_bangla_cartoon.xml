@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/banglabanner"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BanglaCartoon">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardCornerRadius="8dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageButton
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:id="@+id/banglaimage"
+                        android:scaleType="fitXY"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                    <ImageButton
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:id="@+id/banglaBt"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:src="@drawable/videob"/>
+
+
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+
+                android:id="@+id/banglatexttitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="2dp"
+                android:text=" dddd dddd dd dd  dddd dddd ddd dd ddd dddd dd d ddddd dd  "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                   android:textColor="@color/black"
+                    android:gravity="center_vertical"
+                    android:text="Catagory : "
+
+
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/banglacatagorytext"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:gravity="center_vertical"
+                    android:text="bangla Cartoon"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="italic" />
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/banglashare"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:drawableRight="@drawable/share"
+                        android:gravity="center"
+                        android:text="Share"
+                        android:textColor="#050505"
+                        android:textSize="18sp"
+                        android:textStyle="italic" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+<!--            <com.startapp.sdk.ads.banner.Mrec-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/startAppMrec"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content" />-->
+<!--            <com.startapp.sdk.ads.banner.Cover-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:id="@+id/startAppCovercva"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                />-->
+            <RelativeLayout
+                android:id="@+id/cover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You might alsow like"
+                android:textColor="#0B0B0B"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/banglarupkothafgb"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"/>
+            <View
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/banglavirfgb"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

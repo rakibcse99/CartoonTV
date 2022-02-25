@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ffbanner"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FoumascartoonActivity">
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/fsdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="8dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageButton
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/foumasimagebt"
+                android:scaleType="fitXY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageButton
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:id="@+id/foumasvideoBt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/videob" />
+
+
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <TextView
+
+        android:id="@+id/texttitlef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="2dp"
+        android:text=" dddd dddd dd dd  dddd dddd ddd dd ddd dddd dd d ddddd dd  "
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:gravity="center_vertical"
+            android:text="Catagory : "
+           android:textColor="@color/black"
+
+            android:textSize="38sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/catagorytextf"
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:text="abc bhhhh hujjhh hjjhh"
+            android:textColor="#111"
+            android:textSize="38sp"
+            android:textStyle="italic" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/shareef"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:drawableRight="@drawable/share"
+                android:gravity="center"
+                android:text="Share"
+                android:textColor="#050505"
+                android:textSize="38sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+<!--            <com.startapp.sdk.ads.banner.Mrec-->
+
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/startAppMrec"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                />-->
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You might alsow like"
+            android:textColor="#0B0B0B"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pokemonfgff"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+        <View
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/oggyfgff"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+        <View
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/benfgff"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+        <View
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/doreamonfgff"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+<!--            <com.startapp.sdk.ads.banner.Mrec-->
+<!--                android:layout_gravity="center"-->
+<!--                android:gravity="center"-->
+<!--                android:id="@+id/startAppMrecc"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                />-->
+
+            <View
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/beamfgff"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/drawable/exit.xml" value="0.146875" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/drawable/share.xml" value="0.16171875" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/drawable/videob.xml" value="0.13645833333333332" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_bangla_cartoon.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_english_cartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_flash.xml" value="0.1997874601487779" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_foumascartoon.xml" value="0.20193340494092374" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_funny_cartoon.xml" value="0.49" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_hindi_best.xml" value="0.2006403415154749" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_hindi_cartoon.xml" value="0.1997874601487779" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/activity_video_player.xml" value="0.49" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/content_main.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/fragment_about.xml" value="0.3125671321160043" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/fragment_slideshow.xml" value="0.49" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-large/nav_header_main.xml" value="0.49" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_bangla_cartoon.xml" value="0.20416666666666666" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_english_cartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_flash.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_foumascartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_funny_cartoon.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_hindi_best.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_hindi_cartoon.xml" value="0.1547008547008547" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/activity_video_player.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/content_main.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/fragment_about.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/fragment_slideshow.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/hindistoris.xml" value="0.15042735042735042" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/nav_header_main.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/video_itemrow.xml" value="0.10953947368421052" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-normal/video_rownew.xml" value="0.22" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_bangla_cartoon.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_english_cartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_flash.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_foumascartoon.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_funny_cartoon.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_hindi_best.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_hindi_cartoon.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/activity_video_player.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/fragment_about.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-sw600dp/nav_header_main.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/activity_bangla_cartoon.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/activity_english_cartoon.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/activity_flash.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/activity_foumascartoon.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/activity_funny_cartoon.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/activity_hindi_best.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/activity_video_player.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/fragment_about.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w1240dp/nav_header_main.xml" value="0.13119143239625167" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/activity_bangla_cartoon.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/activity_english_cartoon.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/activity_flash.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/activity_foumascartoon.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/activity_funny_cartoon.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/activity_hindi_best.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/activity_video_player.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/fragment_about.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout-w936dp/nav_header_main.xml" value="0.1728395061728395" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_bangla_cartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_english_cartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_flash.xml" value="0.12569444444444444" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_foumascartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_funny_cartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_hindi_best.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_hindi_cartoon.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_hinditop_cartoon.xml" value="0.1675213675213675" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_player_factivety.xml" value="0.14145299145299145" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/activity_video_player.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/content_scrolling.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_about.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_bablu_dablu.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_banglarupkotha.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_batiza.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_benteen.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_chottabheem.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_cracke.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_doreamon.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_dragonball.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_gallery.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_hindiruplotha.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_jan_cartoon.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_joungle_book.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_kisena.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_larva.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_littlebheem.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_looney.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_maomaw.xml" value="0.103125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_masha.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_micky.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_more_over.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_motupatlu.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_motupatlu_new.xml" value="0.16367521367521368" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_oggy.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_oscar.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_pink.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_player.xml" value="0.16367521367521368" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_pokemon.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_rudra.xml" value="0.16367521367521368" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_shigram.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_shiva.xml" value="0.16367521367521368" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_sim_sam.xml" value="0.153125" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_simba.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_slideshow.xml" value="0.1675213675213675" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_tom.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_vir_hindi.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/fragment_virbangla.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/hindiStoris.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/hindistoris.xml" value="0.13333333333333333" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/image_row.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/image_row2.xml" value="0.1361111111111111" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/image_slider_layout_item.xml" value="0.16367521367521368" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/nav_header_main.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/video_itemrow.xml" value="0.137890625" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/video_row.xml" value="0.137890625" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/video_row2.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/video_rownew.xml" value="0.1" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/layout/video_rsv.xml" value="0.16367521367521368" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/menu/activity_main_drawer.xml" value="0.149609375" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/menu/menu_funny_cartoon.xml" value="0.1675213675213675" />
+        <entry key="..\:/HindiCartoonTV/app/src/main/res/xml/videonew.xml" value="0.1675213675213675" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
